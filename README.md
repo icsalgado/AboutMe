@@ -8,7 +8,7 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 </a><br>
 
 ## Onde me encontrar
-<a href="https://www.linkedin.com/in/icsalgado/" target="_blank"><img src="#" width=15px> Linkedin</a><br>
+<a href="https://www.linkedin.com/in/icsalgado/"><img src="#" width=15px> Linkedin</a><br>
 <a href="https://github.com/icsalgado"><img src="#" width=15px> Github</a><br>
 <a href="https://web.digitalinnovation.one/users/icsalgado?tab=achievements"><img src="#" width=15px> Digital Innovation One</a><br>
 <a href="https://app.rocketseat.com.br/me/icsalgado"><img src="#" width=15px> Rocket Seat</a>
