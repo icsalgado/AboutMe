@@ -23,7 +23,7 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 ## O que estou aprendendo
 * Javascript
 * C# / .NET / ASP.NET
-* PQP
+* PHP
 * SQL
 
 ## Objetivos
@@ -37,15 +37,15 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 
 ## As válgulas de escape
 >Apaixonado por carros, acompanho algumas categorias de automobilismo como a StockCar, OldStock, WSeries, F3, F2 e minha favorita Formula 1<br>
->Vinte anos de coleção de miniaturas de carros em escala 1:64 de diversas marcas ( hotweels por exemplo )<br>
->Pretendo retornar a frequentar autodromos tanto para assistir quanto para correr<br>
+>Vinte anos de coleção de miniaturas de carros em escala 1:64 de diversas marcas ( hotwheels por exemplo )<br>
+>Pretendo retornar a frequentar autodromos tanto para assistir quanto para correr, assim que a situação de saúde pública melhorar um pouco<br>
 
 ## Carreira
 >Com atualmente 30 anos, já atuo a mais de 10 com suporte de hardware e software. De laboratórios de informática da universidade até assitências técnicas especializadas em dispositivos Apple e smarth phones em geral.<br>
 Tenho experiência com manutenção e dimensionamento de equipamentos eletrônicos de segurança e CFTV. Sempre fui um entusiasta da programação e desenvolvimento de soluções de software e por isso hoje venho me dedicando a uma migração de carreira.<br>
 Como gestor de equipes de manutenção pude desenvolver meu perfil de liderança carismática, além disso essa experiência me proporcionou o fortalecimento da empatia e da assertividade na tomada de decisão e gestão de conflitos internos e externos.<br>
 Me sinto bastante confortavel aprendendo novas técnicas e ocupando as cadeiras da faculdade e cursos de especialização, acredito que o aprendizado nunca tem fim e essa é a parte boa! Hoje estou em meio a formação Superior em Redes de computadores e mais um técnico em desenvolvimento para WEB.<br>
-Espero ter a oportunidade de em breve de aplicar tudo que venho aprendendo nessa jornada. Pretendo compartilhar o que for possível por aqui, muito do que eu venho aprendendo está disponível a meu alcance a qualquer hora e espero poder retribuir.
+Espero ter a oportunidade em breve de aplicar tudo que venho aprendendo nessa jornada. Pretendo compartilhar o que for possível por aqui, muito do que eu venho aprendendo está disponível a meu alcance a qualquer hora e espero poder retribuir.
 
 
 
