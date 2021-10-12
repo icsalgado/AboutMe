@@ -3,15 +3,15 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 
 ## Artigos Publicados
 <a href="https://www.linkedin.com/pulse/diret%25C3%25B3rios-linux-e-permiss%25C3%25B5es-iuri-de-carvalho-salgado/?trackingId=oUQLT%2FZiT46FZ3zNA8HLXg%3D%3D">
-  <img src="#" width=15px>
+  <img src="./img/tuxIcon.jpg" width=25px>
   Diretórios no Linux e as permissões!
 </a><br>
 
 ## Onde me encontrar
-<a href="https://www.linkedin.com/in/icsalgado/"><img src="#" width=15px> Linkedin</a><br>
-<a href="https://github.com/icsalgado"><img src="#" width=15px> Github</a><br>
-<a href="https://web.digitalinnovation.one/users/icsalgado?tab=achievements"><img src="#" width=15px> Digital Innovation One</a><br>
-<a href="https://app.rocketseat.com.br/me/icsalgado"><img src="#" width=15px> Rocket Seat</a>
+<a href="https://www.linkedin.com/in/icsalgado/"><img src="./img/linkedinIcon.jpg" width=25px> Linkedin</a><br>
+<a href="https://github.com/icsalgado"><img src="./img/githubIcon.jpg" width=25px> Github</a><br>
+<a href="https://web.digitalinnovation.one/users/icsalgado?tab=achievements"><img src="./img/dioIcon.jpg" width=25px> Digital Innovation One</a><br>
+<a href="https://app.rocketseat.com.br/me/icsalgado"><img src="./img/rocketseatIcon.jpg" width=25px> Rocket Seat</a>
 
 ## Conhecimentos
 * Sólido conhecimento em circuitos elétricos de corrente alternada
