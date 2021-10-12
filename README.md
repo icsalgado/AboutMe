@@ -17,7 +17,7 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 * Sólido conhecimento em circuitos elétricos de corrente alternada
 * Projeto, desenvolvimento e reparo em circuitos eletrônicos para diferentes aplicações
 * Programação de baixo nível em microcontrolares em Linguagem C
-* Scrips de automação de processos em Shell Scrip
+* Scrips de automação de processos em Shell Script
 * Desenvolvimento básico de páginas estáticas e dinâmicas para web
 
 ## O que estou aprendendo
