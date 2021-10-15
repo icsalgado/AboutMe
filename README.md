@@ -2,10 +2,14 @@
 Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 
 ## Artigos Publicados
-<a href="https://www.linkedin.com/pulse/diret%25C3%25B3rios-linux-e-permiss%25C3%25B5es-iuri-de-carvalho-salgado/?trackingId=oUQLT%2FZiT46FZ3zNA8HLXg%3D%3D">
-  <img src="./img/tuxIcon.jpg" width=25px>
+### Sobre Linux <img src="./img/tuxIcon.jpg" width=25px> 
+<a href="https://www.linkedin.com/pulse/diret%25C3%25B3rios-linux-e-permiss%25C3%25B5es-iuri-de-carvalho-salgado/?trackingId=oUQLT%2FZiT46FZ3zNA8HLXg%3D%3D">  
   Diretórios no Linux e as permissões!
 </a><br>
+<a href="https://digitalinnovation.one/artigos/permissoes-e-diretorios-no-linux">Permissões e diretórios no Linux</a><br>
+
+## Praticando
+<a href="https://web.digitalinnovation.one/track/impulso-react-web-developer"><img src="https://github.com/icsalgado/ImpulsoReact-Bootcamp-DIO/blob/b6f73d01dcb8307abfd9ec2f892e17c7a01adeb5/assets/bootcampImpulsoReact.jpg"></a> Bootcamp Impulso React Web Developer. <a href="https://github.com/icsalgado/ImpulsoReact-Bootcamp-DIO"><img src="./img/githubIcon.jpg" width="25px"></a>
 
 ## Onde me encontrar
 <a href="https://www.linkedin.com/in/icsalgado/"><img src="./img/linkedinIcon.jpg" width=25px> Linkedin</a><br>
@@ -35,7 +39,7 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 * Alguns materiais que eu faço para me ajudar a resumir meus estudos
 * Materiais de consulta que uso para me aprofundar
 
-## As válgulas de escape
+## As válvulas de escape
 >Apaixonado por carros, acompanho algumas categorias de automobilismo como a StockCar, OldStock, WSeries, F3, F2 e minha favorita Formula 1<br>
 >Vinte anos de coleção de miniaturas de carros em escala 1:64 de diversas marcas ( hotwheels por exemplo )<br>
 >Pretendo retornar a frequentar autodromos tanto para assistir quanto para correr, assim que a situação de saúde pública melhorar um pouco<br>
