@@ -9,7 +9,7 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 <a href="https://digitalinnovation.one/artigos/permissoes-e-diretorios-no-linux">Permissões e diretórios no Linux</a><br>
 
 ## Praticando
-<a href="https://web.digitalinnovation.one/track/impulso-react-web-developer"><img src="https://github.com/icsalgado/ImpulsoReact-Bootcamp-DIO/blob/b6f73d01dcb8307abfd9ec2f892e17c7a01adeb5/assets/bootcampImpulsoReact.jpg"></a> Bootcamp Impulso React Web Developer. <a href="https://github.com/icsalgado/ImpulsoReact-Bootcamp-DIO"><img src="./img/githubIcon.jpg" width="25px"></a>
+<a href="https://web.digitalinnovation.one/track/impulso-react-web-developer"><img src="https://github.com/icsalgado/ImpulsoReact-Bootcamp-DIO/blob/b6f73d01dcb8307abfd9ec2f892e17c7a01adeb5/assets/bootcampImpulsoReact.jpg" width="25px"></a> Bootcamp Impulso React Web Developer. <a href="https://github.com/icsalgado/ImpulsoReact-Bootcamp-DIO"><img src="./img/githubIcon.jpg" width="25px"></a>
 
 ## Onde me encontrar
 <a href="https://www.linkedin.com/in/icsalgado/"><img src="./img/linkedinIcon.jpg" width=25px> Linkedin</a><br>
