@@ -45,7 +45,7 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 >Pretendo retornar a frequentar autodromos tanto para assistir quanto para correr, assim que a situação de saúde pública melhorar um pouco<br>
 
 ## Carreira
->Com atualmente 30 anos, já atuo a mais de 10 com suporte de hardware e software. De laboratórios de informática da universidade até assitências técnicas especializadas em dispositivos Apple e smarth phones em geral.<br>
+>Com atualmente 30 anos, já atuo a mais de 10 com suporte de hardware e software. De laboratórios de informática da universidade até assitências técnicas especializadas em dispositivos Apple e smart phones em geral.<br>
 Tenho experiência com manutenção e dimensionamento de equipamentos eletrônicos de segurança e CFTV. Sempre fui um entusiasta da programação e desenvolvimento de soluções de software e por isso hoje venho me dedicando a uma migração de carreira.<br>
 Como gestor de equipes de manutenção pude desenvolver meu perfil de liderança carismática, além disso essa experiência me proporcionou o fortalecimento da empatia e da assertividade na tomada de decisão e gestão de conflitos internos e externos.<br>
 Me sinto bastante confortavel aprendendo novas técnicas e ocupando as cadeiras da faculdade e cursos de especialização, acredito que o aprendizado nunca tem fim e essa é a parte boa! Hoje estou em meio a formação Superior em Redes de computadores e mais um técnico em desenvolvimento para WEB.<br>
