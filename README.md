@@ -29,6 +29,7 @@ Um pouco sobre mim e alguns materiais que me auxiliam nos estudos!
 * C# / .NET / ASP.NET
 * PHP
 * SQL
+* Docker
 
 ## Objetivos
 * Fortalecer as habilidades para o desenvolvimento de soluções de software
