@@ -1,0 +1,189 @@
+/*Reset das margens e estilos de listas*/
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans' sans-serif;
+    color: #fff;    
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+}
+/*Fim do reset*/
+
+/*Ativação do flexbox e ajuste do tamanho dos campos*/
+.flex-container{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    width: 100%;
+    padding: 0px 10px;
+    /*vai colocar os itens dentro da div em orientação horizontal*/
+}
+
+/***********  Topo da página  **********/
+header{
+    background: #1C1C1C;
+    height: 50px;
+    display: flex;
+    align-items: center;/*alinha no centro vertical precisa do display flex*/
+}
+header .menu{
+    justify-content: space-between;
+    /*vai fazer o espaçamento entre as divs dentro do header*/
+}
+
+
+/*Ajuste na lista do menu no lado direito*/
+header .list-items{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items li a{
+    color: #fff;das letras no menu
+}
+
+/***********  Corpo da página  **********/
+body{
+    background-image: linear-gradient(black, gray);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.lang{
+    background-color: rgb(36, 37, 41);
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 45%;
+    display: block;
+}
+.lang img{
+    width: 50px;
+}
+
+.learn{
+    background-color: rgb(36, 37, 41);
+    margin: 10px 10px;
+    border-radius: 20px;
+    width: 95%;
+    display: block;
+    text-align: center;
+}
+.main{
+    padding-top: 100px;
+    justify-content: space-around;
+}
+.side{
+    width: 530px;
+    text-align: center;
+    display: block;
+}
+
+.box{
+    background-color: rgb(36, 37, 41);
+    padding: 10px 5px;
+    border-radius: 20px;
+    display: block;
+}
+
+.box-gradient{
+    background-image: linear-gradient(rgb(75, 74, 74), rgb(32, 32, 32));
+    padding: 10px 5px;
+    border-radius: 20px;
+    display: block;
+}
+.courses{
+    margin-bottom: 20px;
+    width: 519px;
+    justify-content: space-between;
+}
+.skills{
+    max-width: 1100px;
+    margin: 5px auto;
+    padding: 10px 10px;
+    text-align: center;    
+}
+.pjt{
+    background-color: rgb(36, 37, 41);
+    padding: 10px 5px;
+    border-radius: 20px;
+    width: 45%;
+}
+.item{
+    display: flex;
+    margin-top: 15px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.img{
+    width: 50px;    
+}
+.level{
+    margin-top: 5px;
+    width: 100px;
+    display: flex;
+}
+.job{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 10px;
+}
+.exp {
+    max-width: 20%;
+
+}
+.exp b{
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+.exp p{
+    margin: 5px 15px;
+}
+
+#engine{
+    max-width: 50px;
+    border: none;
+    
+}
+#doc{
+    max-width: 150px;
+    border: none;
+}
+#bl2{
+    margin-top: 200px;;
+}
+#bl3{
+    margin-top: 350px;
+}
+
+.btn{
+    background-color: rgba(0,0,0,.40);
+    /* border: none;para tirar a borda padrão de botões */
+    border-radius: 15px;/*bordas arredondadas*/
+    color: white;
+    margin: 5px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    padding: 50px;
+}
