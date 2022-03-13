@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,250 +12,336 @@
 
     <title>Iuri's Web Page</title>
 </head>
+
 <body>
-    <header id="top"><!--Topo da página-->
-        <div class="flex-container menu"><!--Bloco do menu com flexbox-->
-            <div><!--nome no lado esquerdo-->
-                <h1>Iuri de Carvalho Salgado</h1>
+    <header>
+        <!--Topo da página-->
+        <div class="flex-container menu">
+            <!--menu com flexbox-->
+            <h1>Iuri de Carvalho Salgado</h1>
+            <!--nome-->
+
+            <div>
+                <!--social-->
+                <ul class="list-items">
+                    <!--lista das redes no lado direito-->
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/icsalgado/">
+                            <img src="./assets/img/newlkn.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/icsalgado">
+                            <img src="./assets/img/newgit.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://web.dio.me/users/icsalgado?tab=achievements">
+                            <img src="./assets/img/newdio.png">
+                        </a>
+                    </li>
+                </ul>
             </div>
-        
-            <ul class="list-items"><!--lista do menu no lado direito-->
-                <li><a href="#bl2">Competências</a></li>
-                <li><a href="#bl3">Carreira</a></li>
-                <li><a href="#bl4">Redes</a></li>
-            </ul>
+
+            <div class="dropdown">
+                <!--Menu suspenso-->
+                <img class="mainmenubtn" src="./assets/img/menu.png">
+                <div class="drop-child">
+                    <!--lista oculta-->
+                    <a href="#xp">Experiências</a>
+                    <a href="#">Portifólio</a>
+                    <a href="#">Artigos</a>
+                    <a href="#">Estudos</a>
+                </div>
+            </div>
         </div>
+        <!--end menu-->
     </header>
 
-    <main>
-        <!--Primeiro bloco-->
-        <div class="flex-container main">
-            <div class="side"><h2>Sobre mim</h2><br>
-                <p class="box">A tecnologia sempre fez parte dos meus interesses desde pequeno, aquela curiosidade em usar um computador, mesmo sem objetivo nenhum, sempre esteve presente e foi ficando cada vez maior. Meu início de carreira não poderia ser diferente e me especializei na área de Eletrônica. Venho trabalhando com suporte, manutenção e projetos de hardware há mais de 10 anos e neste momento estou fortalecendo alguns dos elos da tecnologia que são o desenvolvimento de software e a infraestrutura de redes e parques computacionais.</p><br>
+    <main class="main">
+        <!--Corpo da página-->
+        <section class="presentation flex-container">
+            <h2 class="pres-box">Técnico em Informática para Internet e Eletrônica</h2>
+            <p class="pres-box">31 anos, com mais de 10 anos de experiência em suporte a usuários e profissionais
+                técnicos, e manutenção de eletrônicos. Cursando Superior em Redes de Computadores</p>
+        </section>
 
-                <h2>Idiomas</h2>
-                <div class="flex">
-                    <div class="lang">
-                        <img src="./assets/img/eng.png" alt=""><br>
-                        Inglês<br>Intermediário        
-                    </div>
-                    <div class="lang">
-                        <img src="./assets/img/ita.png" alt=""><br>
-                        Italiano<br>Básico
-                    </div>
-                </div>
-            </div>
-
-            <div class="side"><h2>Formação Acadêmica</h2><br>
-                <div class="courses box">
-                    <p>Superior em Redes de computadores</p>
+        <section class="academic">
+            <h2>Formação acadêmica</h2>
+            <div class="courses flex-container">
+                <div class="course">
+                    <h4>Superior em Redes de Computadores</h4>
+                    <img src="./assets/img/uniritter.png" alt="">
                     <p>UNIRITTER</p>
-                    <p> previsão de término em dezembro de 2023</p>
+                    <P>Previsão de término em dezembro de 2023</P>
                 </div>
-                <div class="courses box">
-                    <p>Técnico em Informática para internet</p>
-                    <p>Colégio Estadual Protásio Alves</p>
-                    <p>Previsão de término em julho de 2022</p>
+                <div class="course">
+                    <h4>Técnico em Informática para Internet</h4>
+                    <img src="./assets/img/cpa.png" alt="">
+                    <p>COLÉGIO ESTADUAL PROTÁSIO ALVES</p>
+                    <P>Previsão de término em julho de 2022</P>
                 </div>
-                <div class="courses box">
-                    <p>Técnico em Eletrônica</p>
-                    <p>Escola Estadual Parobé</p>
-                    <p>Concluído em 2014</p>
-                </div>
-                <div class="courses box">
-                    <p>Profissionalizante em Eletrônica</p>
-                    <p>SENAI Visconde de Mauá</p>
-                    <p>Concluído em 2012</p>
+                <div class="course">
+                    <h4>Técnico em Eletrônica</h4>
+                    <img src="./assets/img/cteparobe.png" alt="">
+                    <p>ESCOLA TÉCNICA ESTADUAL PAROBÉ</p>
+                    <P>Concluído em 2014</P>
                 </div>
             </div>
-        </div>
-        <!--Segundo bloco-->
-        <div class="skills" id="bl2"><h2>Competências
-            <a href="#top"><img width="12px" src="./assets/img/uparrow.png"></a> </h2>
-            <div class="owl-carousel owl-theme"><!--Carrosel-->
-                <div class="item box">
-                    <div class="img">
-                        <img src="./assets/img/html.png" alt="">
+        </section>
+
+        <section class="skills">
+            <h2>Conhecimentos, habilidades e competências</h2>
+            <div class="owl-carousel owl-theme carousel">
+                <!--Carrosel-->
+                <div class="item">
+                    <div class="content-img">
+                        <img src="./assets/img/html.png">
                     </div>
                     <div>
                         <b>HTML5 & CSS3</b>
                         <div class="level">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star.png" alt="">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star.png">
                         </div>
                     </div>
                 </div>
                 <div class="item box">
-                    <div class="img"><img src="./assets/img/js.png" alt=""></div>
+                    <div class="content-img"><img src="./assets/img/js.png"></div>
                     <div><b>Javascript</b>
                         <div class="level">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
                         </div>
                     </div>
                 </div>
                 <div class="item box">
-                    <div class="img"><img src="./assets/img/php.png" alt=""></div>
+                    <div class="content-img"><img src="./assets/img/php.png"></div>
                     <div><b>PHP</b>
                         <div class="level">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
                         </div>
                     </div>
                 </div>
                 <div class="item box">
-                    <div class="img"><img src="./assets/img/bd.png" alt=""></div>
+                    <div class="content-img"><img src="./assets/img/bd.png"></div>
                     <div><b>Banco de Dados</b>
                         <div class="level">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
                         </div>
                     </div>
                 </div>
                 <div class="item box">
-                    <div class="img"><img src="./assets/img/docker.png" alt=""></div>
+                    <div class="content-img"><img src="./assets/img/docker.png"></div>
                     <div><b>Docker</b>
                         <div class="level">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
                         </div>
                     </div>
                 </div>
                 <div class="item box">
-                    <div class="img"><img src="./assets/img/git.png" alt=""></div>
+                    <div class="content-img"><img src="./assets/img/git.png"></div>
                     <div><b>Git</b>
                         <div class="level">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
                         </div>
                     </div>
                 </div>
                 <div class="item box">
-                    <div class="img"><img src="./assets/img/linux.png" alt=""></div>
+                    <div class="content-img"><img src="./assets/img/linux.png"></div>
                     <div><b>Linux</b>
                         <div class="level">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
                         </div>
                     </div>
                 </div>
                 <div class="item box">
-                    <div class="img"><img src="./assets/img/python.png" alt=""></div>
+                    <div class="content-img"><img src="./assets/img/python.png"></div>
                     <div><b>Python</b>
                         <div class="level">
-                            <img src="./assets/img/star(1).png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
-                            <img src="./assets/img/star.png" alt="">
+                            <img src="./assets/img/star(1).png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
+                            <img src="./assets/img/star.png">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="flex">
-                <div class="pjt">Projetos
-                    <div class="flex">
-                        <div>Projeto1</div>
-                        <div>Projeto2</div>
-                        <div>Projeto3</div>
-                        <div>Projeto4</div>
+
+            <div class="flex-container soft-skills">
+                <div>
+                    <div class="flex-container">
+                        <img src="./assets/img/eng.png" alt="">
+                        <div class="language">
+                            <h4>Inglês</h4>
+                            <p>Intermediário</p>
+                        </div>
+                    </div>
+                    <div class="flex-container">
+                        <img src="./assets/img/ita.png" alt="">
+                        <div class="language">
+                            <h4>Italiano</h4>
+                            <p>Básico</p>
+                        </div>
                     </div>
                 </div>
-                <div class="pjt">Artigos
-                    <div class="flex">
-                        <div>Artigo1</div>
-                        <div>Artigo2</div>
-                        <div>Artigo3</div>
-                        <div>Artigo4</div>
+
+                <div class="list">
+                    <div class="flex-container skill-item">
+                        <img src="./assets/img/lid.png">
+                        <p>Liderança</p>
+                    </div><br>
+                    <div class="flex-container skill-item">
+
+                        <p>Organização</p>
+                        <img src="./assets/img/plan.png
+                            " alt="">
+                    </div><br>
+                    <div class="flex-container skill-item">
+                        <img src="./assets/img/time.png" alt="">
+                        <p>Comprometimento</p>
+                    </div><br>
+                </div>
+
+                <div class="list">
+                    <div class="flex-container skill-item">
+                        <img src="./assets/img/proat.png" alt="">
+                        <p>Proatividade</p>
+                    </div><br>
+                    <div class="flex-container skill-item">
+                        <p>Autonomia</p>
+                        <img src="./assets/img/aut.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Terveiro bloco-->
-        <div class="skills" id="bl3"><h2>Experiências 
-            <a href="#top"><img width="12px" src="./assets/img/uparrow.png"></a> </h2>
-            <div class="job">
-                <div class="exp box-gradient">
-                    <b>Estagiário de suporte N1</b>
-                    <p>Suporte especializado em serviços de hospedágem de sites</p>
-                    <b><a href="#">KINGHOST</a> </b>
-                    <p>12/2021 - Presente</p>
-                    <b><a href="#"><button class="btn">Saiba mais</button></a></b>
+        </section>
+
+        <section class="experience" id="xp">
+            <h2>Experiências</h2>
+            <div class="flex-container xp">
+                <div class="flex-container">
+                    <img src="./assets/img/king.png">
+                    <div>
+                        <a href="">KINGHOST</a>
+                        <h4>Estagiário de suporte N1</h4>
+                        <p>DEZ/2021 - Presente</p>
+                    </div>
                 </div>
-                <div class="exp box-gradient">
-                    <b>Responsável Técnico Pleno</b>
-                    <p>Manutenção e suporte para gadgets eletrônicos</p>
-                    <b><a href="#">SDAF ME</a></b>
-                    <p>05/2021 - 12/2021</p>
-                    <b><a href="#"><button class="btn">Saiba mais</button></a></b>
+                <div class="flex-container">
+                    <img src="./assets/img/sergio.png">
+                    <div>
+                        <a href="">SDAF ME</a>
+                        <h4>Responsável Técnico</h4>
+                        <p>MAI/2021 - DEZ/2021</p>
+                    </div>
                 </div>
-                <div class="exp box-gradient">
-                    <b>Técnico de manutenção</b>
-                    <p>Manutenção de equipamentos de segurança e CFTV</p>
-                    <b><a href="#">FACILITA DIST.</a></b>
-                    <p>03/2021 - 05/2021</p>
-                    <b><a href="#"><button class="btn">Saiba mais</button></a></b>
-                </div>
-                <div class="exp box-gradient">
-                    <b>Gerente Administrativo</b>
-                    <p>Coordenação geral e gestão das equipes técnica e de vendas</p>
-                    <b><a href="#">IHELPU LTDA</a></b>
-                    <p>12/2017 - 12/2019</p>
-                    <b><a href="#"><button class="btn">Saiba mais</button></a></b>
+                <div class="flex-container">
+                    <img src="./assets/img/facilita.png">
+                    <div>
+                        <a href="">FACILITA</a>
+                        <h4>Encarregado Técnico</h4>
+                        <p>MAR/2021 - MAI/2021</p>
+                    </div>
                 </div>
             </div>
-            <div class="job">
-                <div class="exp box-gradient">
-                    <b>Líder Técnico de manutenção Sênior</b>
-                    <p>Coordenação geral e gestão das equipes técnica e de vendas</p>
-                    <b><a href="#">IHELPU LTDA</a></b>
-                    <p>01/2016 - 12/2017</p>
-                    <b><a href="#"><button class="btn">Saiba mais</button></a></b>
+            <div class="flex-container xp">
+                <div class="flex-container">
+                    <img src="./assets/img/ihelpu.png" alt="">
+                    <div>
+                        <a href="">IHELPU</a>
+                        <h4>Gerente de Unidade</h4>
+                        <p>DEZ/2017 - DEZ/2019</p>
+                    </div>
                 </div>
-                <div class="exp box-gradient">
-                    <b>Técnico de manutenção Pleno</b>
-                    <p>Manutenção especializada em dispositivos Apple</p>
-                    <b><a href="#">IHELPU LTDA</a></b>
-                    <p>05/2015 - 01/2016</p>
-                    <b><a href="#"><button class="btn">Saiba mais</button></a></b>
+                <div class="flex-container">
+                    <img src="./assets/img/ihelpu.png" alt="">
+                    <div>
+                        <a href="">IHELPU</a>
+                        <h4>GLíder Técnico</h4>
+                        <p>JAN/2016 - DEZ/2017</p>
+                    </div>
                 </div>
-                <div class="exp box-gradient">
-                    <b>Técnico de manutenção Júnior</b>
-                    <p>Manutenção especializada em dispositivos Apple</p>
-                    <b><a href="#">IHELPU LTDA</a></b>
-                    <p>11/2014 - 05/201</p>
-                    <b><a href="#"><button class="btn">Saiba mais</button></a></b>
-                </div>
-                <div class="exp box-gradient">
-                    <b>Estagiário de manutenção</b>
-                    <p>Manutenção especializada em dispositivos Apple</p>
-                    <b><a href="#">IHELPU LTDA</a></b>
-                    <p>08/2014 - 11/2014</p>
-                    <b><a href="#"><button class="btn">Saiba mais</button></a></b>
+                <div class="flex-container">
+                    <img src="./assets/img/ihelpu.png" alt="">
+                    <div>
+                        <a href="">IHELPU</a>
+                        <h4>Técnico Pleno</h4>
+                        <p>ABR/2015 - JAN/2016</p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="flex-container xp">
+                <div class="flex-container">
+                    <img src="./assets/img/ihelpu.png" alt="">
+                    <div>
+                        <a href="">IHELPU</a>
+                        <h4>Técnico Júniore</h4>
+                        <p>NOV/2014 - ABR/2015</p>
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <img src="./assets/img/ihelpu.png" alt="">
+                    <div>
+                        <a href="">IHELPU</a>
+                        <h4>Estágiario de Manutenção</h4>
+                        <p>DEZ/2017 - DEZ/2019</p>
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <img src="./assets/img/ufrgs.png" alt="">
+                    <div>
+                        <a href="">UFRGS</a>
+                        <h4>Suporte Técnico</h4>
+                        <p>2014</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container xp">
+                <div class="flex-container">
+                    <img src="./assets/img/ufrgs.png" alt="">
+                    <div>
+                        <a href="">UFRGS</a>
+                        <h4>Auxiliar de escritório</h4>
+                        <p>2012 - 2013</p>
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <img src="./assets/img/banrisul.png" alt="">
+                    <div>
+                        <a href="">BANRISUL</a>
+                        <h4>Estágio de atendimento geral</h4>
+                        <p>2008 - 2009</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer id="bl4">
@@ -266,4 +353,5 @@
     <script src="./assets/owl/owl.carousel.min.js"></script>
     <script src="./assets/owl/setup.js"></script>
 </body>
+
 </html>
